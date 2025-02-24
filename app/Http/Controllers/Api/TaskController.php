@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Http\Resources\TaskResource;
 use App\Models\Task;
+use Illuminate\Support\Facades\{Auth};
 class TaskController extends Controller {
     use ApiResponseTrait;
     protected $taskRepository;
